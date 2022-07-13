@@ -2,13 +2,16 @@
 
 El Proyecto responde a la necesidad de predecir a través de datos históricos y actualizados disponibles, los equipos probables que levantarían la copa en el MUNDIAL QATAR 2022. 
 
+
 ### Nombre del proyecto:
 Análisis y predicción del mundial Qatar 2022.
 
 ### Nombre del equipo:
 DJ PBL (Grupo #01)
 
+
 ### Integrantes:
+
 
 ⚽ [Deygerson Méndez Guédez](https://www.linkedin.com/in/deygerson-mendez/) || Data Engineer (TL)
 
@@ -21,6 +24,8 @@ DJ PBL (Grupo #01)
 ⚽ [Jean P. Flores De La Cruz](https://www.linkedin.com/in/jeanpflores/) || Data Scientist
 
 
+
+## Problema identificado:
 
 
 
