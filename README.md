@@ -14,7 +14,7 @@ DJ PBL (Grupo #01)
 
 ⚽ Luis Solis Navarro || Data Scientist
 
-⚽ [Pamela Paola Contreras Bardales]([https://twitter.com/dompizzie](https://www.linkedin.com/in/pamela-paola-contreras-bardales/))|| Business/Data Analyst
+⚽ [Pamela Paola Contreras Bardales](https://twitter.com/dompizzie](https://www.linkedin.com/in/pamela-paola-contreras-bardales/)|| Business/Data Analyst
 
 ⚽ Bonie Pazimiño González || Business/Data Analyst
 
