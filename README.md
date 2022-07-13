@@ -10,15 +10,15 @@ DJ PBL (Grupo #01)
 
 ### Integrantes:
 
-⚽ Deygerson Méndez Guédez || Data Engineer (TL)
+⚽ [Deygerson Méndez Guédez](https://www.linkedin.com/in/deygerson-mendez/) || Data Engineer (TL)
 
-⚽ Luis Solis Navarro || Data Scientist
+⚽ [Luis Solis Navarro](https://www.linkedin.com/in/luisfernandosolisnavarro/) || Data Scientist
 
 ⚽ [Pamela Paola Contreras Bardales](https://www.linkedin.com/in/pamela-paola-contreras-bardales/) || Business/Data Analyst
 
-⚽ Bonie Pazimiño González || Business/Data Analyst
+⚽ [Bonie Pazimiño González](https://www.linkedin.com/in/bonie-scarlet-pazimi%C3%B1o-gonz%C3%A1lez-76484b18/) || Business/Data Analyst
 
-⚽ Jean P. Flores De La Cruz || Data Scientist
+⚽ [Jean P. Flores De La Cruz](https://www.linkedin.com/in/jeanpflores/) || Data Scientist
 
 
 
