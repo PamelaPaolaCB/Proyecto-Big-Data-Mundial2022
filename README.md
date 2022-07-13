@@ -49,7 +49,89 @@ Para ello, es necesario obtener datos desde fuentes públicas, utilizando web sc
 
 Para la implementación de la solución se utilizan los servicios de Google Cloud Platform, mediante la siguiente arquitectura Batch:
 
-* **Ingesta:** Pipelines de proceso EL(Extracción y Carga), a través de lenguaje de programación Python, en entorno Jupyter Lab, del servicio Vertex AI (Workbench).
+* **Ingesta:** Pipelines de proceso EL(Extracción y Carga), a través de lenguaje de programación Python, en entorno Jupyter Lab, del servicio Vertex AI (Workbench). La periodicidad de la ingesta es diaria, una vez por día, de manera automatizada utilizando las ejecuciones programadas del servicio Vertex AI.
+
+* **Almacenamiento:** Cloud Storage, BigQuery.
+
+* **Machine Learning:** Vertex AI.
+
+* **Analytics:** Google Data Studio.
+
+![Captura1](https://user-images.githubusercontent.com/60514118/178650280-efffd85b-d13a-44b9-8cc4-2545cdef5eb6.PNG)
+
+* **Código de la solución:** Link de Github
+
+
+## Implementación de la solución END2END:
+
+> 1) Creación de un nuevo proyecto “Proyecto-Final-BigData” en cuenta GCP.
+
+![Captura3](https://user-images.githubusercontent.com/60514118/178650675-2605fd37-5829-42b0-83fb-d9a0aaed8c0e.PNG)
+
+> 2) Asignación de permisos y roles sobre el proyecto, en el servicio IAM, para los usuarios correspondientes.
+
+![2](https://user-images.githubusercontent.com/60514118/178650810-bdf666ae-bbf1-4f6c-974e-7a8cebf7a4c8.PNG)
+
+> 3) Despliegue y autorización de las API’s de los distintos servicios de GCP:
+
+* VertexAI(Workbech): Se crea nuevo notebook “proyecto-final-bigdata-notebook”.
+
+![3](https://user-images.githubusercontent.com/60514118/178651082-83c7c0d5-2f91-4bd2-b68d-f89f5c71ac2f.PNG)
+
+* Cloud Storage: Se crea nuevo bucket “proyecto_final_bigdata_bucket”
+
+![4](https://user-images.githubusercontent.com/60514118/178651214-888f4217-f876-4c1a-beae-4f141e60b862.PNG)
+
+* BigQuery: Se generan los datasets “raw_data y analytics”, los cuales contienen las tablas, que son consumidas por la solución visual.
+
+![5](https://user-images.githubusercontent.com/60514118/178651329-b3b29704-85e8-4acd-b19f-818d7075b93b.PNG)
+
+
+> 4) Desarrollo de código de pipelines y modelo de Machine Learning en entorno Jupyter Lab, del servicio Vertex AI. 
+
+![5](https://user-images.githubusercontent.com/60514118/178651576-5d81327f-716f-488a-8c76-aa3f684c6367.PNG)
+
+
+> 5) Creación de tablero en Google Data Studio:
+
+El tablero lo puedes ver el el siguiente [link](https://datastudio.google.com/reporting/7d262f32-c37e-4943-bb9a-d377d4d5fa38)
+
+
+>  6) Modelado:
+
+>  7) Visualización con Data Studio:
+
+La visualización de los datos es muy importante en todo proyecto, como bien lo menciona la autora de “La introducción a la visualización de datos” (Milanes guisado, Yusnelkis,2020), que con la visualización estadística de los datos, podemos ver patrones de comportamiento, tomar decisiones y mantenemos la interactividad.
+Mencionado lo anterior, para el presente trabajo se propone trabajar con un herramienta en la nube y open source, como lo es Data Studio.
+
+Pero ¿Qué es Data Studio?
+Es una herramienta Open Source de Google, que opera en la nube, creada para visualización de datos, y según Google, Data Studio puede: crear informes fácilmente sobre datos de una amplia variedad de fuentes, sin tener que escribir código. En tan solo unos instantes, puedes conectarte a conjuntos de datos como: 
+
+* Bases de datos, como BigQuery, MySQL o PostgreSQL,Productos de Google Marketing Platform, como Google Ads, Analytics, Display & Video 360 o Search Ads 360.
+
+* Productos de consumo de Google, como Hojas de cálculo, YouTube o Search Console.
+
+* Archivos de texto plano, mediante Google Cloud Storage o la subida de archivos CSV.
+
+* Plataformas de redes sociales, como Facebook, Reddit o Twitter.
+
+* Datos combinados de cualquier combinación de fuentes relacionadas.
+
+En conclusión para los fines del proyecto es la herramienta que se alinea a las necesidades para mostrar de manera dinámica la información que nos arrojan los datos.
+A continuación muestro unas capturas del Tablero en Data Studio que se elaboró para el proyecto:
+
+![6](https://user-images.githubusercontent.com/60514118/178652278-7da2a4ad-6ec9-4dc7-bf0b-4ebe33cbcba8.PNG)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
