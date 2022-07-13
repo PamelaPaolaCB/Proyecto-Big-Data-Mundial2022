@@ -3,16 +3,16 @@
 El Proyecto responde a la necesidad de predecir a través de datos históricos y actualizados disponibles, los equipos probables que levantarían la copa en el MUNDIAL QATAR 2022. 
 
 
-### Nombre del proyecto:
+## Nombre del proyecto:
 
 Análisis y predicción del mundial Qatar 2022.
 
-### Nombre del equipo:
+## Nombre del equipo:
 
 DJ PBL (Grupo #01)
 
 
-### Integrantes:
+## Integrantes:
 
 
 ⚽ [Deygerson Méndez Guédez](https://www.linkedin.com/in/deygerson-mendez/) || Data Engineer (TL)
@@ -36,6 +36,20 @@ Este proyecto nació en las vísperas del repechaje que enfrentaría la selecci�
 No con la intención de predecir efectivamente al ganador sino de, a través de la aplicación de las técnicas de machine learning y visualización aprendidas en el curso, alejarnos un poco de las emociones que trae este lindo deporte e intentar aprender a ser más objetivos con la información existente. 
 Sea cual sea el ganador de Qatar 2022, los participantes de este proyecto reconocemos desde ya que aprenderemos junto con nuestro modelo y buscaremos estar listos para la siguiente iteración.
 
+
+## Diseño Conceptual:
+
+La solución propuesta es la construcción de un modelo de Machine Learning, capaz de predecir a los equipos clasificados por cada grupo y al ganador de la Copa Mundial de Catar 2022. 
+Para ello, es necesario obtener datos desde fuentes públicas, utilizando web scraping, esta información debe ser almacenada en un lago de datos, para poder ser consumida por el modelo y también por una solución de visualización de datos.
+
+
+![Captura](https://user-images.githubusercontent.com/60514118/178649722-0ded8a16-a25f-45d6-987a-bc1d13a064e1.PNG)
+
+## Diseño tecnológico:
+
+Para la implementación de la solución se utilizan los servicios de Google Cloud Platform, mediante la siguiente arquitectura Batch:
+
+* **Ingesta:** Pipelines de proceso EL(Extracción y Carga), a través de lenguaje de programación Python, en entorno Jupyter Lab, del servicio Vertex AI (Workbench).
 
 
 
