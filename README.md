@@ -122,7 +122,33 @@ A continuación muestro unas capturas del Tablero en Data Studio que se elaboró
 
 ![6](https://user-images.githubusercontent.com/60514118/178652278-7da2a4ad-6ec9-4dc7-bf0b-4ebe33cbcba8.PNG)
 
+## Modelo Predictivo
 
+## Metodología
+Para el desarrollo del modelo predictivo se utilizó la metodología fundamental de ciencia de datos planteado por Rolllins (2015).
+
+![metodologia](https://user-images.githubusercontent.com/39033189/179321645-a9df2cd1-655e-49f0-99c4-e4893a7e2029.PNG)
+
+
+Disponemos de 4 conjuntos de datos.
+
+## Partidos a jugarse en Qatar 2022
+![1](https://user-images.githubusercontent.com/39033189/179321469-741ff95b-2d89-4776-b5e9-4a083e57ec52.PNG)
+
+## Resultados historicos del los equipos clasificados
+![2](https://user-images.githubusercontent.com/39033189/179321477-1b51332d-c889-4f2f-aff5-9f61efca38f0.PNG)
+
+## Ranking FIFA de los equipos
+![3](https://user-images.githubusercontent.com/39033189/179321481-aff1ca2a-89b4-49ca-95ec-d9f857570190.PNG)
+
+## Valoración en el mercado (en millones de dolares) de los equipos clasificados
+![4](https://user-images.githubusercontent.com/39033189/179321484-bb39c550-df5f-44ee-9016-bf04c86de27b.PNG)
+
+## Modelo de Machine Learning
+![modelo](https://user-images.githubusercontent.com/39033189/179321543-ce662859-0b03-4e36-9166-1d117d5d3d7d.PNG)
+## Resultados
+
+![resultado](https://user-images.githubusercontent.com/39033189/179321591-d6351afb-2041-4aa3-8e0c-d6bc727f0430.PNG)
 
 
 
