@@ -2,6 +2,7 @@
 
 El Proyecto responde a la necesidad de predecir a través de datos históricos y actualizados disponibles, los equipos probables que levantarían la copa en el MUNDIAL QATAR 2022. 
 
+![22](https://user-images.githubusercontent.com/60514118/180075090-0bb43061-e6c2-4ba4-a026-6ddb67e8e8d1.jpg)
 
 ## Nombre del proyecto:
 
